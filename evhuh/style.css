@@ -1,0 +1,137 @@
+body{
+    font-family: 'Franklin Gothic Light', monospace;
+    background-color: #fefced;
+    color: #44593e;
+    margin: 0px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    margin: 10;
+    padding: 10px;
+    font-family: 'Goudy Old Style', Arial;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family: 'Impact', sans-serif;
+    font-weight: lighter;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800;
+    width: 100;
+}
+
+.navbar-item{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #44593e;
+    text-decoration: none;
+}
+
+.nav a:visited{
+    color: #44593e;
+}
+
+.navbar-line{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 1px;
+    background-color:#44593e;
+}
+
+.about{
+    margin: 90px;
+    font-size: 22px;
+}
+
+/* Headings for sections */
+.heading{
+    display: flex;
+    align-items: center;
+}
+
+.heading-line{
+    border-bottom: 3px dashed #44593e;
+    flex-grow: 1;
+    margin-right: 5%;
+}
+
+.heading-text{
+    margin: 0px;
+    margin-left: 70px;
+    font-family: 'Impact', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sub-heading{
+    margin: 0;
+    margin-top: 1%;
+    margin-left: 10%;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.sub-context{
+    margin: 0;
+    margin-left: 10%;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.sub-text{
+    margin-top: 5px;
+    margin-left: 13%;
+    margin-right: 15%;
+    font-size: 18px;
+}
+
+.footer{
+    margin-top: 12px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sm-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #44593e;
+}
+
+.footer-er{
+    margin-left: 10%;
+    margin-bottom: 20px;
+    color: #44593e;
+}
